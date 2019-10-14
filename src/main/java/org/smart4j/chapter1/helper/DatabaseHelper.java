@@ -32,6 +32,7 @@ public final class DatabaseHelper {
 
     private static final BasicDataSource DATA_SOURCE;
 
+    //初始化数据源
     static {
         CONNECTION_HOLDER = new ThreadLocal<Connection>();
 
